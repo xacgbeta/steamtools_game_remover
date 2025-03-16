@@ -1,2 +1,6 @@
-# steamtools_game_remover
-U can delete a steamtools game from ur lib
+# Steamtools_game_remover
+Delete steamtools games from your library
+
+## Compile Steps 
+
+`python -m nuitka --follow-imports --standalone --enable-plugin=anti-bloat --enable-plugin=tk-inter --windows-console-mode=disable --onefile "steamtools remover.py"`
