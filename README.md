@@ -3,4 +3,4 @@ Delete steamtools games from your library
 
 ## Compile Steps 
 
-`python -m nuitka --follow-imports --standalone --enable-plugin=anti-bloat --enable-plugin=tk-inter --windows-console-mode=disable --onefile "steamtools remover.py"`
+`python -m nuitka --follow-imports --enable-plugin=anti-bloat --enable-plugin=tk-inter --windows-icon-from-ico=icon_dir --windows-console-mode=disable --onefile ".\Steam_Remover.py""`
